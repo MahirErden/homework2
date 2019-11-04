@@ -49,6 +49,16 @@ body {
      margin-bottom: 0;
    }
 } 
+
+/* Header-group styling for 1200px*/
+@media (min-width: 1200px) {  
+   [class ="header-group"] {
+     display: flex;            
+     justify-content: space-between; 
+     width: 1150px;
+     margin-bottom: 0;
+   }
+} 
  
 /* Styling for navigatin as a whole*/
 @media (min-width: 576px) {  
@@ -72,7 +82,10 @@ body {
      height: 200px;    
      float: left;
      border: #cccccc; 
- }}
+   }
+}
+
+
 
 /* main content styling*/
 
